@@ -1,4 +1,4 @@
-package com.wuho.SpringSecEx.entity;
+package com.wuho.SpringSecEx.model;
 
 public class Student {
     private int id;

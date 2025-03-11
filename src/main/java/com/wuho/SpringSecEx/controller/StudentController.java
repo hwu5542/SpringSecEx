@@ -1,6 +1,6 @@
 package com.wuho.SpringSecEx.controller;
 
-import com.wuho.SpringSecEx.entity.Student;
+import com.wuho.SpringSecEx.model.Student;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.security.web.csrf.CsrfToken;
 import org.springframework.web.bind.annotation.GetMapping;

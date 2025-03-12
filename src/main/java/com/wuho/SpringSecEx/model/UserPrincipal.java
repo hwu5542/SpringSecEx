@@ -16,11 +16,13 @@ public class UserPrincipal implements UserDetails {
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
+        System.out.println("TESTGetAuth");
         return Collections.singleton(new SimpleGrantedAuthority("USER"));
     }
 
     @Override
     public String getPassword() {
+        System.out.println("TESTGetPw");
         return user.getPassword();
     }
 
